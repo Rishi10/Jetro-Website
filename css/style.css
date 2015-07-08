@@ -243,12 +243,13 @@
 	.items{
 		height: 248px;
 	}
-
 	.post1 {
 		
 		width: 220px;
 		height: 248px;
 		float: left;
+		margin-left: 15px;
+		margin-bottom: 20px;
 	}
 	.post1 .char{
 		height: 60px;
@@ -266,89 +267,6 @@
 		padding-left: 10px;
 	}	
 	.post1 .char p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-
-
-
-	.post2 {
-		float: left;
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-left: 20px;
-	}
-	.post2 .brochures{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post2 .brochures h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post2 .brochures p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-
-
-	.post3{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-left: 20px;
-	}
-	.post3 .social{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post3 .social h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post3 .social p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post4 {
-		float: left;
-		margin-left: 20px;
-		height: 248px;
-	}
-	.post4 .websites{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post4 .websites h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post4 .websites p{
 		padding-left: 10px;
 		color: #E9663A;
 		font-family: bebas;
@@ -457,19 +375,19 @@
 		display: block;
 	}
 	.social-media li:nth-child(1) a{
-		background: url(img/facebook.jpg);	
+		background: url(../img/facebook.jpg);	
 	}
 	.social-media li:nth-child(2) a{
-		background: url(img/twitter.jpg);
+		background: url(../img/twitter.jpg);
 	}
 	.social-media li:nth-child(3) a{
-		background: url(img/mail.jpg);
+		background: url(../img/mail.jpg);
 	}
 	.social-media li:nth-child(4) a{
-		background: url(img/social_04.jpg);
+		background: url(../img/social_04.jpg);
 	}
 	.social-media li:nth-child(5) a{
-		background: url(img/social_05.jpg);
+		background: url(../img/social_05.jpg);
 	}
 	/*Einde contact us*/
 	
@@ -663,7 +581,7 @@
 		color: #525252;
 	}
 	.icon a{
-		background: url(img/blog/images/blog-01.jpg);
+		background: url(../img/blog/images/blog-01.jpg);
 		height: 75px;
 		width: 75px;
 		position: absolute;
@@ -671,7 +589,7 @@
 		left: 116px;
 	}
 	.slider{
-		background: url(img/blog/images/blog-slider.jpg);
+		background: url(../img/blog/images/blog-slider.jpg);
 		width: 670px;
 		height: 300px;
 		margin-bottom: 25px;
@@ -725,7 +643,7 @@
 		margin-bottom: 40px;
 	}
 	.icon-print a{
-		background: url(img/blog/images/blog-02.jpg);
+		background: url(../img/blog/images/blog-02.jpg);
 		height: 75px;
 		width: 75px;
 		position: absolute;
@@ -733,7 +651,7 @@
 		left: 116px;
 	}
 	.jesus{
-		background: url(img/blog/images/blog_jesus.jpg);
+		background: url(../img/blog/images/blog_jesus.jpg);
 		height: 300px;
 		width: 670px;
 		margin-bottom: 25px;
@@ -757,7 +675,7 @@
 		padding-top: 25px;
 	}
 	.icon-video a{
-		background: url(img/blog/images/blog-04.jpg);
+		background: url(../img/blog/images/blog-04.jpg);
 		height: 75px;
 		width: 75px;
 		position: absolute;
@@ -765,7 +683,7 @@
 		left: 116px;
 	}
 	.video{
-		background: url(img/blog/images/blog_video.jpg);
+		background: url(../img/blog/images/blog_video.jpg);
 		height: 300px;
 		width: 670px;
 		margin-bottom: 25px;
@@ -789,7 +707,7 @@
 		padding-top: 25px;
 	}
 	.icon-quote a{
-		background: url(img/blog/images/blog-03.jpg);
+		background: url(../img/blog/images/blog-03.jpg);
 		height: 75px;
 		width: 75px;
 		position: absolute;
@@ -804,14 +722,14 @@
 		margin-bottom: 70px;
 	}
 	blockquote span{
-		background: url(img/blog/images/blog_quote.png);
+		background: url(../img/blog/images/blog_quote.png);
 		height: 20px;
 		width: 24px;
 		display: inline-block;
 		margin: 5px 20px 0px 0px;
 	}
 	.icon-link a{
-		background: url(img/blog/images/blog-05.jpg);
+		background: url(../img/blog/images/blog-05.jpg);
 		height: 75px;
 		width: 75px;
 		position: absolute;
@@ -889,227 +807,6 @@
 		margin-bottom: 50px;
 	}
 	/*Einde menu/*
-
-	/*Begin portfolio*/
-	.post5{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-	}
-	.post5 .jetro{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post5 .jetro h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post5 .jetro p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post6{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
-	}
-	.post6 .plane{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post6 .plane h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post6 .plane p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post7{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
-	}
-	.post7 .gun{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post7 .gun h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post7 .gun p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post8{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
-	}
-	.post8 .bunny{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post8 .bunny h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post8 .bunny p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post9{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-	}
-	.post9 .hotdog{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post9 .hotdog h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post9 .hotdog p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post10{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
-	}
-	.post10 .strip{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post10 .strip h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post10 .strip p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post11{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
-	}
-	.post11 .cards{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post11 .cards h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post11 .cards p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post12{
-		width: 220px;
-		height: 248px;
-		float: left;
-		margin-top: 25px;
-		margin-left: 20px;
-	}
-	.post12 .plugin{
-		height: 60px;
-		width: 218px;
-		border-left: 1px solid #B9B9C5;
-		border-right: 1px solid #B9B9C5;
-		border-bottom: 1px solid #B9B9C5;
-		margin-top: -3px;
-	}
-	.post12 .plugin h4{
-		color: #B9B9B9;
-		word-spacing: 1px;
-		padding-top: 8px;
-		padding-left: 10px;
-	}
-	.post12 .plugin p{
-		padding-left: 10px;
-		color: #E9663A;
-		font-family: bebas;
-		font-size: 0.7em;
-	}
-	.post12 a:hover{
-		background: #262626;
-	}
-
-	/*Einde Portfolio pagina/*
 	/*Begin portfolio pluginpagina*/
 	.plugin-info{
 		margin-top: 25px;
